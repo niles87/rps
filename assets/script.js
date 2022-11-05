@@ -49,7 +49,7 @@ function startGame() {
     while (playGame) {
         playGame = gameLoop()
     }
-    // Zero out stats object and restart
+    // Zero out stats object for next restart
     stats.draws = 0
     stats.losses = 0
     stats.wins = 0
